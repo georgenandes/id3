@@ -27,7 +27,6 @@ def divide_conjuntos(alfa):
 # Quanto maior a entropia, maior o potencial para melhorar a classificação aqui.
 # métrica id3 disponível em: https://en.wikipedia.org/wiki/ID3_algorithm
 # cálculo da pureza:
-
 def entropia(eco):
     rs = 0
     values, countis = np.unique(eco, return_counts=True)
